@@ -1,0 +1,123 @@
+ body {
+    height: 10000px !important;
+    background-color: rgb(239, 238, 238) !important;
+ }
+ 
+ .nav-link  {
+    color: azure !important;
+}
+
+.nav-item {
+    list-style-type: none !important;
+}
+
+.section1 .navbar img {
+    margin: 4px 5px;
+}
+
+.form-control {
+size: 50% !important;
+    text-align: center !important;
+}
+/* 
+input {
+    justify-content: center !important ;
+
+} */
+
+.fixed .navbar  {
+   position: relative !important ;
+}
+.fixed .navbar .nav {
+    position: absolute !important;
+    left: 70px !important;
+}
+.cards {
+    margin: -300px 2px;
+   display: flex !important;
+   flex-wrap: wrap !important;
+   justify-content: space-around !important;
+}
+
+/* ......................start media cardes ....*/
+@media(max-width : 1040px){
+    .fixed .navbar .nav {
+        display: none !important;
+    } 
+}
+
+/* for tablet */
+@media(max-width : 768px){
+    .fixed .navbar .nav {
+        display: none !important;
+    }
+}
+
+
+/* for mobil */
+@media(max-width:600px) {
+    .cards {
+        margin: -60px 2px;
+    h5 {
+        font-size: 15px !important;
+    }
+}
+.section1 .navbar img {
+   width: 30px !important;
+   height: 10 !important;
+}
+.fixed .navbar .nav {
+    display: none !important;
+}
+}
+
+
+.rowcardes {
+    overflow: hidden !important;
+    margin-top: 400px !important;
+    margin-left: 25px !important;
+}
+
+.overflow-auto {
+    margin-top: 20px!important;
+    margin-left: 15px !important;
+}
+.overflow-auto h3 {
+    margin: 10px !important;
+    padding: 15px !important;
+}
+.Kitchen {
+    margin-top:320px!important ;
+    background-color:white !important; 
+}
+.overflow-auto {
+    background-color: white !important ;
+}
+.cards2 {
+    margin: 50px 2px;
+   display: flex !important;
+   flex-wrap: wrap !important;
+   justify-content: space-around !important;
+}
+/* ......................start media cardes ....*/
+/* for mobil */
+@media(max-width:600px) {
+    .cards {
+        margin: -60px 2px;
+    h5 {
+        font-size: 15px !important;
+    }
+}
+}
+/* ......................end media cardes ....*/
+.bg-white h4{
+    padding: 15px !important;
+}
+
+.card-body a {
+    width: 250px !important;
+    border-width: 1px;
+    border-color: rgba(188, 118, 12, 0.694);
+    box-shadow: 2px 2px 2px burlywood;
+}
+
